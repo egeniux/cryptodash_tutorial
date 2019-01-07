@@ -1,11 +1,14 @@
 import React from 'react';
 import Welcome from '../Settings/WelcomeMessage';
 import ConfirmButtom from './ConfirmButton';
+import Page from '../Shared/Page';
 
 export default function(){
     return (
-        <div> 
-            <Welcome name={"CryptoDash"}/> <ConfirmButtom/>
-        </div>
+        
+            <Page name="Settings">
+                <Welcome name={"CryptoDash"}/> 
+                <ConfirmButtom/>
+            </Page>
     )
 }
