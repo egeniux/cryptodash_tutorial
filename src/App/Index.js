@@ -3,13 +3,15 @@ import './App.css';
 import Welcome from './WelcomeMessage';
 //import styled, {css} from 'styled-components';
 import AppLayout from './AppLayout';
+import AppBar from './AppBar';
 
 
 class App extends Component {
   render() {
     return (
       <AppLayout>
-        <Welcome name={"CryptoDash"}/>
+        <AppBar/>
+          <Welcome name={"CryptoDash"}/>  
       </AppLayout>
     );
   }
