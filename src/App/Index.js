@@ -12,10 +12,17 @@ class App extends Component {
     return (
       <AppLayout>
         <AppProvider>
+<<<<<<< HEAD
           <AppBar/>
             <Content>
               <Settings/>  
             </Content>
+=======
+          <AppBar />
+          <Content>
+            <Settings/>
+          </Content>
+>>>>>>> 1286a0f717bbdffee8e79f6bef3391bbee4ed9c3
         </AppProvider>
       </AppLayout>
     );
