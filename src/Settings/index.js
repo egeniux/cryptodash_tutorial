@@ -9,6 +9,7 @@ export default function(){
         
             <Page name="Settings">
                 <Welcome name={"CryptoDash"}/> 
+                <CoinGrid topSection/>
                 <ConfirmButtom/>
                 <CoinGrid/>
             </Page>
