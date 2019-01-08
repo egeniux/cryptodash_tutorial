@@ -72,6 +72,8 @@ export class AppProvider extends React.Component {
         this.setState ({
             firstVisit: false, 
             page: 'Dashboard'
+        }, () => {   
+            this.fetchPrices();
         });
         localStorage.setItem('cryptoDash', JSON.stringify({
             favorites: this.state.favorites
